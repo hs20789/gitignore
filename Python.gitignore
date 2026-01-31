@@ -146,15 +146,20 @@ activemq-data/
 # SageMath 파싱된 파일
 *.sage.py
 
-# 가상 환경 (Environments)
-.env
-.envrc
+# 가상 환경 (Virtual Environments)
 .venv
 env/
 venv/
 ENV/
 env.bak/
 venv.bak/
+.venv-api-ai/
+
+# 비밀 설정 파일 (Secrets & Config)
+.env                # API 키, DB 비밀번호 등 (절대 공유 금지)
+.envrc
+.env.local
+.env.*.local
 
 # Spyder 프로젝트 설정
 .spyderproject
